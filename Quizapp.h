@@ -370,7 +370,7 @@ public:
             }
             time_t now = time(0);
             int remaining = quiz->timelim - (int)difftime(now, starttime);
-            cout << "&#x23F2 Time Remaining: " << remaining / 60 << "m " << remaining % 60 << "s" << endl;
+            cout << "Time Remaining: " << remaining / 60 << "m " << remaining % 60 << "s" << endl;
 
             int ans;
             while (true)
